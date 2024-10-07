@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* textfield black */
+.black_color .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline,
+.black_color .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline,
+.black_color .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: black;
+}
+
+.black_color .MuiOutlinedInput-root.Mui-focused .MuiInputBase-input, 
+.black_color .MuiInputLabel-root.Mui-focused{
+  color: black;
+}
+
+
+.panding_button .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  /* padding-right: 32px; */
+  padding: 8px 10px 8px 0px;
+}
+
